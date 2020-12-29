@@ -133,7 +133,7 @@ a {
 }
 
 .logo>span>span {
-	color: red;
+	color: White;
 }
 
 .logo--mini {
@@ -143,15 +143,15 @@ a {
 
 /* 로고바 시작 */
 .logo-bar {
-	background-color: pink;
-	color: white;
+	background-color: gray;
+	color: pink;
 	height: 150px;
 }
 /* 로고바 끝 */
 
 /* 메뉴바 시작 */
 .menu-bar {
-	background-color: black;
+	background-color: gray;
 	color: pink;
 }
 
@@ -166,8 +166,8 @@ a {
 }
 
 .menu-bar__menu-1 ul>li:hover>a {
-	background-color: pink;
-	color: black;
+	background-color: gray;
+	color: pink;
 }
 
 .menu-bar__menu-1>ul>li>a {
@@ -180,8 +180,8 @@ a {
 	top: 100%;
 	left: -10px;
 	width: 100%;
-	background-color: black;
-	border: 10px solid black;
+	background-color: white;
+	border: 10px solid gray;
 	border-top-width: 0;
 	border-radius: 0 0 20px 20px;
 	z-index: 10;
@@ -206,8 +206,8 @@ a {
 /* 하단바 시작 */
 .bottom-bar {
 	margin-top: 30px;
-	background-color: black;
-	color: white;
+	background-color: gray;
+	color: pink;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
@@ -241,7 +241,7 @@ a {
 	right: 0;
 	width: 1px;
 	height: 10px;
-	background-color: black;
+	background-color: white;
 }
 
 .article-list>*>div>div {
@@ -273,7 +273,7 @@ a {
 }
 
 .article-list>main>div {
-	border-top: 1px solid black;
+	border-top: 1px solid white;
 }
 /* 게시물 리스트 끝 */
 
@@ -300,13 +300,13 @@ a {
 }
 
 .article-page-menu__link--selected {
-	color: pink;
+	color: white;
 }
 /* 게시물 리스트 페이지 메뉴 끝 */
 
 /* 게시물 상세 시작 */
 .article-detail>* {
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid pink;
 	padding-bottom: 20px;
 	padding-top: 20px;
 }
