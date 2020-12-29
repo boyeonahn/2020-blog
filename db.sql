@@ -18,24 +18,24 @@ CREATE TABLE article (
 INSERT INTO article
 SET regDate = NOW(),
 updateDate = NOW(),
-title = '제목1',
-`body` = '내용1',
+title = '알기 쉬운 자바',
+`body` = '는 다음 이 시간에 만나요',
 memberId = 1,
 boardId = 1;
 
 INSERT INTO article
 SET regDate = NOW(),
 updateDate = NOW(),
-title = '제목2',
-`body` = '내용2',
+title = '전혀 어렵지 않은 SQL',
+`body` = '은 없습니다.',
 memberId = 1,
 boardId = 1;
 
 INSERT INTO article
 SET regDate = NOW(),
 updateDate = NOW(),
-title = '제목3',
-`body` = '내용3',
+title = '하루만에 익히는 Html',
+`body` = '하는 사람은 최소 7살부터 C언어 한 사람',
 memberId = 1,
 boardId = 1;
 
@@ -55,14 +55,14 @@ SET regDate = NOW(),
 updateDate = NOW(),
 loginId = 'test1',
 loginPw = 'test1',
-`name` = '테스터1';
+`name` = 'boyeon Ahn';
 
 INSERT INTO `member`
 SET regDate = NOW(),
 updateDate = NOW(),
 loginId = 'test2',
 loginPw = 'test2',
-`name` = '테스터2';
+`name` = '햄참깨';
 
 # 게시판 테이블 생성
 CREATE TABLE board (
@@ -115,11 +115,11 @@ boardId = FLOOR(RAND() * 2) + 1;
 */
 
 # 3번글 내용을 마크다운 문법으로 수정
-UPDATE article SET `body` = '# 공지사항\r\n안녕하세요.\r\n이 사이트는 저의 글 연재 공간입니다.\r\n\r\n---\r\n\r\n# 이 사이트의 특징\r\n- A\r\n- B\r\n- C'
+UPDATE article SET `body` = '# 공지사항\r\n안녕하세요.\r\n이 사이트는 Bo의 글 연재 공간입니다.\r\n\r\n---\r\n\r\n# 이 사이트는 저의 일상과 공부에 대해 연재될 예정입니다. 기타 문의 사항은 하단바의 이메일로 연락주세요! '
 WHERE id = '3';
 
 SELECT * FROM article;
 
 # 2번글 내용에 자바소스코드 넣기
-UPDATE article SET `body` = '# 자바기본문법\r\n```java\r\nint a = 10;\r\nint b = 20;\r\nint c = a + b;\r\n```'
+UPDATE article SET `body` = '# 자바란 무엇인가 \r\n```java\r\nint a = 10;\r\nint b = 20;\r\nint c = a + b;\r\n```'
 WHERE id = '2'; 
