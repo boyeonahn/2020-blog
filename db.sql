@@ -53,14 +53,14 @@ CREATE TABLE `member` (
 INSERT INTO `member`
 SET regDate = NOW(),
 updateDate = NOW(),
-loginId = 'test1',
+loginId = 'boyeon Ahn',
 loginPw = 'test1',
 `name` = 'boyeon Ahn';
 
 INSERT INTO `member`
 SET regDate = NOW(),
 updateDate = NOW(),
-loginId = 'test2',
+loginId = '햄참깨',
 loginPw = 'test2',
 `name` = '햄참깨';
 
